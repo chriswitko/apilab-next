@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1492881936366" clover="3.2.0">
+  <project timestamp="1492881936366" name="All files">
+    <metrics statements="145" coveredstatements="145" conditionals="45" coveredconditionals="36" methods="49" coveredmethods="49" elements="239" coveredelements="230" complexity="0" loc="145" ncloc="145" packages="8" files="11" classes="11">
+      <package name="api">
+        <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+        <file name="index.js" path="/Users/chris/projects/apilab/src/api/index.js">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="7" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="12" count="7" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+        </file>
+        <file name="movies.js" path="/Users/chris/projects/apilab/src/api/movies.js">
+          <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="7" type="stmt"/>
+          <line num="8" count="7" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="15" count="7" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="21" count="7" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="api.ResponseInterceptor">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/chris/projects/apilab/src/api/ResponseInterceptor/index.js">
+          <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="3" count="4" type="stmt"/>
+          <line num="5" count="4" type="stmt"/>
+          <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="7" count="5" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="18" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="config">
+        <metrics statements="18" coveredstatements="18" conditionals="15" coveredconditionals="13" methods="8" coveredmethods="8"/>
+        <file name="config.js" path="/Users/chris/projects/apilab/src/config/config.js">
+          <metrics statements="6" coveredstatements="6" conditionals="13" coveredconditionals="11" methods="3" coveredmethods="3"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="27" count="1" type="cond" truecount="0" falsecount="1"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+        </file>
+        <file name="mongo.js" path="/Users/chris/projects/apilab/src/config/mongo.js">
+          <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="26" count="2" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="config.ssl">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/chris/projects/apilab/src/config/ssl/index.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="repository">
+        <metrics statements="69" coveredstatements="69" conditionals="20" coveredconditionals="14" methods="24" coveredmethods="24"/>
+        <file name="index.js" path="/Users/chris/projects/apilab/src/repository/index.js">
+          <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="4" count="13" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="8" count="13" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="14" count="14" type="stmt"/>
+          <line num="15" count="14" type="stmt"/>
+          <line num="17" count="14" type="stmt"/>
+          <line num="19" count="14" type="stmt"/>
+          <line num="21" count="13" type="stmt"/>
+          <line num="22" count="13" type="stmt"/>
+          <line num="23" count="13" type="stmt"/>
+          <line num="28" count="2" type="stmt"/>
+          <line num="29" count="14" type="stmt"/>
+          <line num="30" count="14" type="cond" truecount="2" falsecount="0"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="33" count="14" type="stmt"/>
+          <line num="36" count="13" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="43" count="2" type="stmt"/>
+        </file>
+        <file name="movies.js" path="/Users/chris/projects/apilab/src/repository/movies.js">
+          <metrics statements="49" coveredstatements="49" conditionals="18" coveredconditionals="12" methods="14" coveredmethods="14"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="6" count="14" type="stmt"/>
+          <line num="8" count="13" type="cond" truecount="0" falsecount="2"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+          <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="29" count="13" type="stmt"/>
+          <line num="30" count="2" type="stmt"/>
+          <line num="31" count="2" type="stmt"/>
+          <line num="32" count="2" type="stmt"/>
+          <line num="33" count="2" type="stmt"/>
+          <line num="46" count="2" type="stmt"/>
+          <line num="47" count="2" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="50" count="2" type="stmt"/>
+          <line num="51" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="56" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="64" count="13" type="stmt"/>
+          <line num="65" count="2" type="stmt"/>
+          <line num="66" count="2" type="stmt"/>
+          <line num="67" count="2" type="stmt"/>
+          <line num="68" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="73" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="74" count="1" type="stmt"/>
+          <line num="76" count="1" type="stmt"/>
+          <line num="81" count="13" type="stmt"/>
+          <line num="88" count="2" type="stmt"/>
+          <line num="89" count="14" type="stmt"/>
+          <line num="90" count="14" type="cond" truecount="2" falsecount="0"/>
+          <line num="91" count="1" type="stmt"/>
+          <line num="93" count="14" type="stmt"/>
+          <line num="97" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="repository.AppError">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/chris/projects/apilab/src/repository/AppError/index.js">
+          <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="2" count="3" type="cond" truecount="1" falsecount="1"/>
+          <line num="3" count="4" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="repository.ObjectID">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/chris/projects/apilab/src/repository/ObjectID/index.js">
+          <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="13" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="server">
+        <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <file name="server.js" path="/Users/chris/projects/apilab/src/server/server.js">
+          <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="8" count="7" type="stmt"/>
+          <line num="9" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="12" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="16" count="7" type="stmt"/>
+          <line num="17" count="7" type="stmt"/>
+          <line num="18" count="7" type="stmt"/>
+          <line num="20" count="7" type="stmt"/>
+          <line num="21" count="7" type="stmt"/>
+          <line num="23" count="7" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="28" count="7" type="stmt"/>
+          <line num="32" count="3" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
