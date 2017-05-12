@@ -39,6 +39,7 @@
     "supertest": "^2.0.1"
   },
   "dependencies": {
+    "babel-eslint": "^7.2.3",
     "express": "^4.15.2",
     "helmet": "^3.4.0",
     "http-status": "^0.2.5",

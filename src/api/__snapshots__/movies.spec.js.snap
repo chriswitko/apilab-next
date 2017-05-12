@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies API can return all movies to snapshot 1`] = `
+Array [
+  Object {
+    "format": "IMAX",
+    "id": "3",
+    "releaseDay": 20,
+    "releaseMonth": 1,
+    "releaseYear": 2017,
+    "title": "xXx: Reactivado",
+  },
+  Object {
+    "format": "IMAX",
+    "id": "4",
+    "releaseDay": 27,
+    "releaseMonth": 1,
+    "releaseYear": 2017,
+    "title": "Resident Evil: Capitulo Final",
+  },
+  Object {
+    "format": "IMAX",
+    "id": "1",
+    "releaseDay": 6,
+    "releaseMonth": 1,
+    "releaseYear": 2017,
+    "title": "Assasins Creed",
+  },
+]
+`;

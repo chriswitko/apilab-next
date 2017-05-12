@@ -1,4 +1,4 @@
-/* eslint-env mocha */
+/* eslint-env jest */
 const request = require('supertest')
 const server = require('../server/server')
 
@@ -71,6 +71,15 @@ describe('Movies API', () => {
         })
       })
       .expect(200, done)
+  })
+
+  it('can return all movies to snapshot', done => {
+    request(app)
+      .get('/movies')
+      .then(res => {
+        expect(res.body).toMatchSnapshot()
+        done()
+      })
   })
 
   it('can get movie premiers', (done) => {
