@@ -1,6 +1,6 @@
 {
   "name": "apilab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sample api server, microservice",
   "author": "Chris Witko <chris.witko@gmail.com>",
   "license": "ISC",
