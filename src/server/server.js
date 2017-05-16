@@ -24,12 +24,12 @@ const start = (options) => {
         server.use(morgan('dev'))
         server.use(helmet())
 
+        api(server, options)
+        movies(server, options)
+
         server.get('*', (req, res) => {
           return handle(req, res)
         })
-
-        api(server, options)
-        movies(server, options)
 
         server.use((err, req, res, next) => {
           reject(new Error('Something went wrong!, err:' + err))
