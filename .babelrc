@@ -1,6 +1,10 @@
 {
   "presets": [
-    "next/babel"
+    "next/babel",
+    "stage-0",
+    "es2015",
+    "jest",
+    "react"
   ],
   "plugins": [
     ["transform-define", "./src/env-config.js"]
