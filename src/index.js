@@ -48,17 +48,6 @@ const initRepository = db => {
     })
 }
 
-const startStaticServer = _ => {
-  return server.start({
-    port: config.serverSettings.port,
-    ssl: config.serverSettings.ssl
-  })
-}
-
-if (config.serverSettings.static) {
-  startStaticServer()
-} else {
-  startServerWithDatabase()
-}
+startServerWithDatabase()
 
 mediator.emit('boot.ready')

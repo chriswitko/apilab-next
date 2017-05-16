@@ -17,7 +17,9 @@
     "test": "jest --coverage --expand --forceExit",
     "test-mocha": "mocha -R spec src/**/*.spec.js",
     "coverage": "jest --coverage --expand --forceExit",
-    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "start": "NODE_ENV=production node src/index.js",
+    "build": "next build",
     "lint": "standard --verbose | snazzy",
     "node-debug": "DEBUG=express* node src/index.js",
     "chrome-debug": "node --debug-brk --inspect src/index.js"
@@ -29,6 +31,7 @@
     "microservice"
   ],
   "devDependencies": {
+    "babel-plugin-transform-define": "^1.2.0",
     "eslint": "^3.13.1",
     "expect": "^1.20.2",
     "jest": "^19.0.2",
@@ -44,6 +47,9 @@
     "helmet": "^3.4.0",
     "http-status": "^0.2.5",
     "mongodb": "^2.1.18",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "next": "^2.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   }
 }

@@ -1,6 +1,6 @@
 // TODO: Add env versions dev, beta, prod
 const dbSettings = {
-  db: process.env.DB || 'movies',
+  db: process.env.DB || 'techspeller-next',
   user: process.env.DB_USER || '',
   pass: process.env.DB_PASS || '',
   repl: process.env.DB_REPLS || 'rs1',
@@ -10,7 +10,6 @@ const dbSettings = {
 }
 
 const serverSettings = {
-  static: false,
   port: process.env.PORT || 3000,
   ssl: require('./ssl')
 }
